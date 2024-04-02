@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 500px;
+}
+.display_box {
+}
+.wrapper {
+  background-color: black;
+  color: white;
+  padding: 22px;
+}
+.display_box img {
+  height: 300px;
+  width: 100%;
+}
+
+.search_note {
+  font-size: 22px;
+}
+#history_search li:hover {
+  color: rgb(68, 112, 233);
+  cursor: pointer;
+}
+
+.date_box {
+}
+.date_box button {
+  padding: 7px 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
